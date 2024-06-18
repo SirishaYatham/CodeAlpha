@@ -1,1 +1,22 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image Gallery</title>
+        <link rel = "stylesheet" href = "ImageGallery.css">
+    </head>
+    <body>
+        <h2>Welcome to Image Gallery</h2>
+        <div class="gallery-container">
+            <button class="prev" onclick="prevImage()">&#10094;</button>
+            <div class="image-container">
+                <img src="Images/pic-1.webp" class="gallery-image">
+                <img src="Images/pic-2.webp" class="gallery-image" style="display: none;">
+                <img src="Images/pic-3.webp" class="gallery-image" style="display: none;">
+            </div>
+            <button class="next" onclick="nextImage()">&#10095;</button>
+        </div>
+        <script src="ImageGallery.js"></script>
 
+    </body>
+</html>
