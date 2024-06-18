@@ -1,1 +1,40 @@
-
+<html>
+    <head>
+        <link rel = "stylesheet" href = "Calculator.css">
+    </head>
+    <body>
+        <h1>Calculator</h1>
+        <div class = "container">
+            <div class = "num-container">
+                <p id = "result">0</p>
+                <div>
+                    <button id = "num1" onclick = "addToResult('1')">1</button>
+                    <button id = "num2" onclick = "addToResult('2')">2</button>
+                    <button id = "num3" onclick = "addToResult('3')">3</button>
+                </div>
+                <div>
+                    <button id = "num4" onclick = "addToResult('4')">4</button>
+                    <button id = "num5" onclick = "addToResult('5')">5</button>
+                    <button id = "num6" onclick = "addToResult('6')">6</button>
+                </div>
+                <div>
+                    <button id = "num7" onclick = "addToResult('7')">7</button>
+                    <button id = "num8" onclick = "addToResult('8')">8</button>
+                    <button id = "num9" onclick = "addToResult('9')">9</button>
+                </div>
+                <div>
+                    <button id = "plus" onclick = "addToResult('+')">+</button>
+                    <button id = "num0" onclick = "addToResult('0')">0</button>
+                    <button id = "equal" onclick = "calculate()">=</button>
+                </div>
+            </div>
+            <div class = "right">
+                <button id = "clear" onclick = "clearResult()">C</button><br>
+                <button id = "multiply" onclick = "addToResult('*')">*</button><br>
+                <button id = "divide" onclick = "addToResult('/')">/</button><br>
+                <button id = "minus" onclick = "addToResult('-')">-</button>
+            </div>
+        </div>
+        <script src = "Calculaor.js"></script>
+    </body>
+</html>
