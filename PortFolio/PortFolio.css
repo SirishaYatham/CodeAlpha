@@ -1,0 +1,290 @@
+.navbar 
+{
+    margin:0px 0px 0px 0px;
+    background-color: #111821;
+    display: flex;
+    align-content: row;
+    height:80px;
+    justify-content: space-between;
+
+}
+.navbar p 
+{
+    padding-left: 20px;
+    font: 20px bold ;
+    color:white;
+}
+.nav-links 
+{
+    display: flex;
+    align-items: row;
+    justify-content: space-evenly;
+}
+.nav-links li  
+{
+    padding-left:20px;
+    font-size: 20px;
+    margin-right:90px;
+}
+.nav-links li a 
+{
+    text-decoration: none;
+    color:white;
+
+}
+.moon-icon 
+{
+    color:white;
+}
+section
+{
+    margin-top:-10px;
+    height:100vh;
+    background-image: linear-gradient(70deg,#111821,#223247,#e31b6d, #111821);
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.3s ease; /* Smooth transition for background change */
+}
+section.dark-mode 
+{
+    background-image: linear-gradient(60deg,#2e4a6f,#ffffff,#e31b6d);
+}
+.image 
+{
+    width: 400px;
+}
+.para-container 
+{
+    width:450px;
+    padding:30px;
+    color:white;
+    font-size: 25px;
+}
+.para-container.dark-mode
+{
+    color: #111821;   
+}
+.sub-container 
+{
+    display: flex;
+    align-items: row;
+    justify-content: space-between;
+    width:1000px;
+    height: 80%;
+    margin-left:80px;
+}
+.Hero_hero_right_container_imgContainer_image__lEM1W 
+{
+    transform: rotate(10deg) translateY(2rem);
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.Hero_hero_right_container_imgContainer__Mlivi 
+{
+    position: relative;
+    z-index: 3;
+    height: 38rem;
+    background-color: #111821;
+    border: 3px solid #223247;
+    overflow: hidden;
+}
+.Hero_hero_right_container_background__02P36 
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--secondary);
+    z-index: 2;
+}
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.image-container {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin-top: 70px;
+    margin-left:-70px;
+}
+.image-border {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #e31b6d;
+    border: 3px solid #223247;
+    transform: rotate(-8deg);
+    z-index: 2;
+}
+.image-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:  #111821;
+    transform: rotate(-6deg);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume-btn 
+{
+    position: relative;
+    border: 2px solid #e31b6d;;
+    padding: .2rem 1rem;
+    font-size: 1.8rem;
+    color:#e31b6d;
+    font-weight: 200;
+    text-decoration: none;
+}
+.resume-btn.dark-mode 
+{
+    color: #223247;
+    border: #223247 2px solid;
+}
+#about 
+{
+    text-align: center;
+    height:120vh;
+}
+#about h1 
+{
+    color:#111821;
+    font-size: 30px;
+    font-weight: bold;
+}
+.about p 
+{
+    color:#ffffff;
+    font-size: 20px;
+}
+.about p.dark-mode 
+{
+    color:#111821;
+}
+#skills h1
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+#skills h2 
+{
+    font-size: 30px;
+    margin-left:200px;
+}
+.skills-list 
+{
+    display: flex;
+    align-items: row;
+}
+.skills-list p 
+{
+    border:solid #111821 2px;
+    border-radius:10px;
+    padding:10px;
+    color:#e31b6d;
+    font-size: 18px;
+    background-color: #223247;
+    margin-left:20px;
+    margin-top: -10px;
+}
+.skills-list p.dark-mode 
+{
+    color:#111821;
+    background-color: transparent;
+}
+#projects 
+{
+    height: 120vh;
+}
+#projects h1 
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.netflix-container img 
+{
+    width:400px;
+    border-radius: 20px;
+    margin-right: 50px;
+
+}
+.netflix-container 
+{
+    display: flex;
+    align-items: row;
+    margin-left:240px;
+    margin-bottom: 20px;
+}
+.netflix-container button 
+{
+    background-color: transparent;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 20px;
+    border:solid #111821 2px;
+    color:#111821;
+    border-radius: 10px;
+    padding:10px;
+}
+.netflix-container button.dark-mode 
+{
+    color:#e31b6d;
+    border:solid 2px #111821;
+}
+.netflix-container button a 
+{
+    color:#111821;
+    text-decoration: none;
+}
+.netflix-container button.dark-mode 
+{
+    color:#e31b6d;
+}
+#contact 
+{
+    height:55vh;
+}
+#contact h1 
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.contact-container 
+{
+    display: flex;
+    align-items: row;
+    margin:40px 0px 0px 390px;
+}
+.contact-details
+{
+    margin:10px 0px 0px 20px;
+}
+.contact-details a 
+{
+    text-decoration: none;
+    border:solid 2px #111821;
+    padding:10px;
+    color:#111821;
+}
+.contact-details a .dark-mode 
+{
+    color:#e31b6d;
+    border:solid 2px #e31b6d;
+}
+.contact-details li 
+{
+    margin-bottom: 30px;
+}
+.copyrights 
+{
+    text-align: center;
+    margin-top: 30px;
+}
